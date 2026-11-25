@@ -1,0 +1,6 @@
+.research-grill/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.zip

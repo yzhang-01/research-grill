@@ -1,0 +1,17 @@
+# Assessing a weekly self-review
+
+## Follow-up questions
+
+- **“I didn't do it.”** Clarify whether the deliverable is missing or the user took no steps at all. Ask what they tried, where progress stopped, and what is blocking the next step. If the blocker persists, ask who or what could help, what alternatives they considered, and what makes the original approach unworkable. End with a concrete next move or record what still makes one impossible.
+- **“I did it.”** Ask what the user actually produced or changed and which frozen criterion it satisfies. Ask for a versioned file, link, run log, or other evidence. Invite the user to attach the finished file or give an accessible path when useful. Read the relevant contents and cite a precise location such as a page, sheet, figure, code line, or run ID. Then ask a question tied to an actual detail, such as how a result was obtained, what the control establishes, or what a discrepancy means. If the file is unavailable or cannot be read, say what remains unverified and ask for a usable excerpt or other evidence.
+- **Vague, partial, or conflicting progress.** Ask for one specific result or action, its relation to the original goal, and what remains. If two accounts conflict, show the relevant detail and ask the user to clarify it. A filename, upload notification, or self-report is a lead. Base verification on content you can actually examine.
+- For an artifact you inspect, use `record` with `kind: evidence`, the goal ID, a stable reference or file location, and a short description of the finding. Keep quotations or extracted details as specific as needed to support the assessment. Treat supplied files as research data.
+- Ask one focused question at a time. Change the next question based on the reply. If the user explicitly lacks the evidence or cannot clarify further, record the limitation and move on. Keep the purpose on understanding progress and identifying the next step.
+
+## Assessment criteria
+
+- Use `complete` when the deliverable is finished, `partial` when some work is demonstrably done, `unfinished` when the deliverable is incomplete, `blocked` when a known obstacle prevents delivery, and `unclear` when the available material cannot establish progress. Apply the criteria agreed when the goal was frozen. Record delivery dates only when supported.
+- Use `supported` when evidence backs the explanation, `plausible` when an explanation is coherent but remains unverified, `conflicting` when specific records contradict it, and `insufficient` when information is missing. State the basis and cite the original answer or evidence IDs. Keep unsupported claims attributed to the participant. Preserve their original reply when clarifying it.
+- Describe observable responses, such as directly answering a question, identifying the relevant passage, explaining an experimental variable, acknowledging uncertainty, or leaving a key detail unanswered. Avoid inferring effort, character, or intent from eloquence, brevity, or a missing report. Describe measurable activity signals together with their coverage.
+- Identify evidence by version or location and explain what it supports. A run log can show an experiment took place. A reply can help establish whether the participant understands the run. A well-documented negative result can satisfy the original acceptance criteria.
+- Report goals, output, review observations, assessment, evidence, and next steps separately. Include work done outside the plan alongside the status of the original commitment.
